@@ -1,0 +1,57 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "mods.banana.economy.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "balance.save",
+    "chestShop.addScreenhandler",
+    "chestShop.checkChestOpen",
+    "chestShop.hopperExtract",
+    "chestShop.checkBreak",
+    "chestShop.creation.createSign",
+    "chestShop.creation.tick",
+    "chestShop.creation.verifySignEntity",
+    "chestShop.exchanging.signBuy",
+    "chestShop.exchanging.signSell",
+    "chestShop.limiter.preventDrop",
+    "chestShop.limiter.preventLimitEntities",
+    "chestShop.limiter.removeLimiter",
+    "chestShop.limiter.setLimit",
+    "chestShop.saving.save",
+    "trade.tick"
+  ],
+  "client": [
+    "trade.client.armor",
+    "trade.client.bow",
+    "trade.client.crossbow",
+    "trade.client.egg",
+    "trade.client.enderEye",
+    "trade.client.enderPearl",
+    "trade.client.lingeringPotion",
+    "trade.client.potion",
+    "trade.client.shield",
+    "trade.client.snowball",
+    "trade.client.splashPotion",
+    "trade.client.useItem",
+    "banknote.client.useItem"
+  ],
+  "server": [
+    "trade.server.armor",
+    "trade.server.bow",
+    "trade.server.crossbow",
+    "trade.server.egg",
+    "trade.server.enderEye",
+    "trade.server.enderPearl",
+    "trade.server.lingeringPotion",
+    "trade.server.potion",
+    "trade.server.shield",
+    "trade.server.snowball",
+    "trade.server.splashPotion",
+    "trade.server.useItem",
+    "banknote.server.useItem"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

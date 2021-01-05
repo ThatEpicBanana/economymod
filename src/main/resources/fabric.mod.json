@@ -1,0 +1,34 @@
+{
+  "authors": [
+    "ThatEpicBanana"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x",
+    "economy": "*"
+  },
+  "description": "Adds economy commands",
+  "entrypoints": {
+    "main": [
+      "mods.banana.economy.main"
+    ]
+  },
+  "environment": "*",
+  "icon": "assets/modid/icon.png",
+  "id": "economy",
+  "license": "CC0-1.0",
+  "mixins": [
+    "economy.mixins.json"
+  ],
+  "name": "Economy",
+  "schemaVersion": 1,
+  "suggests": {
+    "another-mod": "*"
+  },
+  "version": "${version}"
+}

@@ -1,0 +1,5 @@
+gotta stop the overwriting of items by the limited glass items ✓
+make sure others cannot open chest ✓
+prevent stealing the limited items ✓
+implement selling of course ✓
+money item to money ✓
